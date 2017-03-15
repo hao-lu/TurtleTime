@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="70dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:src="@drawable/time_and_date_icon" />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/minutes_before"
+            android:layout_width="170dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:text="@string/on_time_string_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/primary_text_light" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/always_remind_checkbox"
+        android:layout_width="143dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:checked="false"
+        android:clickable="true"
+        android:enabled="true"
+        android:text="@string/always_remind_checkbox_text"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/set_notification_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/set_notification_button_text" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_next_alarm"
+            android:text="show next alarm"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

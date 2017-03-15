@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Turtle Time</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="question_text">6th Digit ID</string>
+
+    <string name="enter_button">Enter</string>
+
+    <string name="enter_toast">Confirm</string>
+    <string name="time">Your Turtle Times</string>
+    <string name="change_ID_text">Change ID</string>
+    <string name="set_reminder_text_button">Set Reminder</string>
+    <string name="on_time_string_text">On time</string>
+    <string name="five_minutes_before_text">5 minutes before</string>
+    <string name="ten_minutes_before_text">10 minutes before</string>
+    <string name="twenty_minutes_before_text">20 minutes before</string>
+    <string name="thirty_minutes_before_text">30 minutes before</string>
+    <string name="one_hour_before_text">1 hour before</string>
+    <string name="custom_time_text">Custom...</string>
+    <string name="set_notification_button_text">SET</string>
+    <string name="always_remind_checkbox_text">Always remind</string>
+    <string name="cancel_alarms_text_string">Cancel all alarms</string>
+
+</resources>

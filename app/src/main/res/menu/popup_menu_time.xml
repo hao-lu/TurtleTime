@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/on_time"
+        android:title="On Time" />
+    <item android:id="@+id/five_minutes"
+        android:title="@string/five_minutes_before_text"/>
+    <item android:id="@+id/ten_minutes"
+        android:title="@string/ten_minutes_before_text"/>
+    <item android:id="@+id/twenty_minutes"
+        android:title="@string/twenty_minutes_before_text"/>
+    <item android:id="@+id/thirty_minutes"
+        android:title="@string/thirty_minutes_before_text"/>
+    <item android:id="@+id/one_hour"
+        android:title="@string/one_hour_before_text"/>
+
+    <!--
+    <item android:id="@+id/custom_time"
+        android:title="@string/custom_time_text"/>
+    -->
+
+
+</menu>
